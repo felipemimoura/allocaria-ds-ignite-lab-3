@@ -16,6 +16,7 @@ module.exports = {
     "storyStoreV7": true
   },
   viteFinal: (config, { configType }) => {
+    console.log('teste')
     if (configType === 'PRODUCTION') {
       config.base = '/allocaria-ds-ignite-lab-3'
     }
