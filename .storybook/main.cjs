@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/allocaria-ds'
+      config.base = '/allocaria-ds-ignite-lab-3'
     }
 
     return config
